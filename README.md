@@ -17,16 +17,12 @@ Este proyecto es un **juego de disparos side-scroller** inspirado en la saga *Gr
    - Si no tienes Unity configurado, puedes abrir el proyecto mediante Unity Hub.
 
 3. **Ejecutar el build en Windows**:
-   - Asegúrate de que el proyecto esté configurado para **Windows** en `File > Build Settings`.
-   - Haz clic en **Build** para generar el archivo ejecutable del juego.
+   - En la carpeta Windows se encuentra el archivo ejecutable con nombre "Solar Sentinel - SCS.exe.
 
-4. **Ejecutar el build en WebGL**:
-   - Asegúrate de que el proyecto esté configurado para **WebGL** en `File > Build Settings`.
-   - Haz clic en **Build** para generar la carpeta `Build` para WebGL y luego sube los archivos a una plataforma como **itch.io**.
-
-5. **Controles**:
+4. **Controles**:
    - **Movimiento de la nave**: Usa las teclas **W, A, S, D** o las flechas direccionales para mover la nave.
    - **Disparar**: Presiona **Espacio** para disparar.
+   - **Cambio de arma**: Presiona **Tab** para cambiar de arma.
    - **Pausa**: Presiona **Esc** para pausar el juego.
    - **Salir**: Presiona el botón **Exit** en el menú para cerrar el juego.
 
@@ -38,13 +34,13 @@ Este proyecto es un **juego de disparos side-scroller** inspirado en la saga *Gr
 El juego sigue el formato clásico de un **shooter side-scroller** en el que el jugador controla una nave espacial que debe avanzar a través de niveles mientras combate oleadas de enemigos. El jugador tiene que esquivar los disparos enemigos, recoger power-ups y derrotar a los jefes de cada nivel para avanzar.
 
 - **Nave y Disparos**:
-  El jugador controla una nave con un sistema de disparos de alta velocidad similar a *Gradius*. La nave puede obtener power-ups que mejoran sus armas y habilidades.
+  El jugador controla una nave con un sistema de disparos de alta velocidad similar a *Gradius*. La nave puede obtener un power-up que genera un escudo.
   
-- **Enemigos y Jefes**:
-  En el camino, el jugador se enfrentará a una variedad de enemigos con patrones de movimiento predecibles y otros impredecibles. Al final de cada nivel, se enfrentará a un **jefe** con habilidades únicas.
+- **Enemigos**:
+  En el camino, el jugador se enfrentará a una variedad de enemigos con patrones de movimiento predecibles y otros impredecibles.
 
 - **Niveles**:
-  Cada nivel tiene un diseño lineal donde el jugador avanza hacia la derecha mientras se enfrenta a enemigos y obstáculos.
+  Cuenta con dos niveles, tiene un diseño lineal donde el jugador avanza hacia la derecha mientras se enfrenta a enemigos y obstáculos.
 
 ### Interfaces de Usuario (UI)
 El sistema de interfaces de usuario está diseñado para ser intuitivo y proporcionar toda la información relevante durante el juego.
@@ -56,24 +52,22 @@ El sistema de interfaces de usuario está diseñado para ser intuitivo y proporc
   - **Arma activa**: El HUD también muestra el nombre del arma que el jugador está usando actualmente.
 
 - **Menú Principal**:
-  El menú principal se presenta al inicio del juego y permite al jugador iniciar una nueva partida, cargar un nivel o salir.
+  El menú principal se presenta al inicio del juego y permite al jugador iniciar una nueva partida, registrar su nombre, configurar el volumen de la musica y sfx o salir del juego.
 
 - **Pantalla de Victoria**:
   Al completar el juego, el jugador es llevado a una pantalla de victoria con un mensaje que celebra el logro y ofrece la opción de regresar al menú principal.
 
 ### Diseño Visual
-- **Escenarios**: Los niveles son visualmente variados, con fondos de parallax que proporcionan una sensación de profundidad. Los fondos cambian en cada nivel, haciendo que el jugador se sienta como si estuviera avanzando a través de diferentes entornos.
+- **Escenarios**: Los niveles son visualmente similares. Los fondos cambian en atmosfera en cada nivel, haciendo que el jugador se sienta como si estuviera avanzando a través de diferentes entornos.
   
 - **Enemigos**: Los enemigos tienen diseños únicos para cada nivel, con naves que se mueven de manera diferente según su comportamiento.
 
 - **Efectos Especiales**: El juego tiene efectos visuales para los disparos, explosiones y power-ups, todos diseñados para mejorar la experiencia visual sin abrumar al jugador.
 
 ### Diseño de Power-ups
-Los power-ups están diseñados para mejorar las capacidades del jugador. Existen varias categorías de power-ups que se pueden recoger durante el juego:
+Los power-ups están diseñados para mejorar las capacidades del jugador, estos se pueden recoger durante el juego:
 
-- **Mejoras de arma**: Aumentan la capacidad de disparo o introducen nuevas formas de disparar.
 - **Escudo**: Proporciona protección temporal contra los disparos enemigos.
-- **Velocidad**: Aumenta la velocidad de la nave temporalmente, permitiendo al jugador moverse más rápido.
 
 ---
 
