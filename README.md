@@ -1,6 +1,6 @@
 # Gradius-like Side-Scroller Shooter Game
 
-Este proyecto es un **juego de disparos side-scroller** inspirado en la saga *Gradius*, desarrollado en Unity. El jugador controla una nave espacial y debe enfrentarse a oleadas de enemigos mientras avanza por niveles cada vez más desafiantes. El juego incluye una serie de mecánicas como power-ups, enemigos variados y un sistema de niveles.
+Este proyecto es un **juego de disparos side-scroller** inspirado en la saga *Gradius*, desarrollado en Unity y enfocado en el desarrollo del **Gameplay**. El jugador controla una nave espacial y debe enfrentarse a oleadas de enemigos mientras avanza por niveles cada vez más desafiantes. El juego incluye una serie de mecánicas como power-ups, enemigos variados y un sistema de niveles.
 
 ## Instrucciones para ejecutar el proyecto
 
