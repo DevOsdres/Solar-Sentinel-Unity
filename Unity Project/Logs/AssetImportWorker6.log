@@ -1,0 +1,365 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.39f1 (fb3b7b32f191) revision 16464763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32598 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Unity Projects/Solar Sentinel - SCS
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50820
+Successfully changed project path to: C:/Unity Projects/Solar Sentinel - SCS
+C:/Unity Projects/Solar Sentinel - SCS
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13740] Host "[IP] 192.168.20.8 [Port] 0 [Flags] 2 [Guid] 3979052389 [EditorId] 3979052389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GV1NKDM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13740] Host "[IP] 192.168.20.8 [Port] 0 [Flags] 2 [Guid] 3979052389 [EditorId] 3979052389 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GV1NKDM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 78.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.39f1 (fb3b7b32f191)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/Solar Sentinel - SCS/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.39f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004606 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 80.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (503ms)
+		BeginReloadAssembly (66ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (110ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004126 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1307ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1139ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (785ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (546ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5342 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.7 MB). Loaded Objects now: 5794.
+Memory consumption went from 212.6 MB to 211.9 MB.
+Total: 2.555200 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.152500 ms MarkObjects: 1.956200 ms  DeleteObjects: 0.197900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67674.455152 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-4/hits-4-5.png
+  artifactKey: Guid(96d9343b937724d6ba0040b24b3776de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-4/hits-4-5.png using Guid(96d9343b937724d6ba0040b24b3776de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1eedc086ddbcf8a76caf69a19b6db0ce') in 0.170282 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/hits-3-1.png
+  artifactKey: Guid(aebeab716d07a4a0584a05bca757ed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/hits-3-1.png using Guid(aebeab716d07a4a0584a05bca757ed93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2764685bcd7e9fe9e85d0c81265ddd1e') in 0.020094 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-2/hits-2-1.png
+  artifactKey: Guid(de7cd932501094988a25e04e44b1b9f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-2/hits-2-1.png using Guid(de7cd932501094988a25e04e44b1b9f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eab703c62c2a65fd7e07d46161fa3528') in 0.027274 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Pulse/pulse1.png
+  artifactKey: Guid(5334a60396bca40f19ac9d531fab2621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Pulse/pulse1.png using Guid(5334a60396bca40f19ac9d531fab2621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '319e38c15382ab59efbd746cfa610d54') in 0.015384 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/stg_basic_pics/sample_animations/explosion/stgpics_basic_497.controller
+  artifactKey: Guid(be7a512fa97bd7147885fb216c3e835a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/stg_basic_pics/sample_animations/explosion/stgpics_basic_497.controller using Guid(be7a512fa97bd7147885fb216c3e835a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd09ccc8874e048fac5e247ee2648e16a') in 0.014037 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/stg_basic_pics/sample_animations/explosion/stgpics_basic_514.controller
+  artifactKey: Guid(73912c0d15440104589102dc20e7a5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/stg_basic_pics/sample_animations/explosion/stgpics_basic_514.controller using Guid(73912c0d15440104589102dc20e7a5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '51fd8a7ed95678fc58515537cacb737e') in 0.015994 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/stg_basic_pics/sample_animations/explosion/stgpics_basic_480.controller
+  artifactKey: Guid(9a9c0afea3f2a104f912c5c8fb3156f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/stg_basic_pics/sample_animations/explosion/stgpics_basic_480.controller using Guid(9a9c0afea3f2a104f912c5c8fb3156f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2244666c2d84dd21ddc2d9c95d93f357') in 0.008557 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/stg_basic_pics/sample_animations/explosion/explosion009anim.anim
+  artifactKey: Guid(662fbb0605e6b3542bf918c2e0db019a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/stg_basic_pics/sample_animations/explosion/explosion009anim.anim using Guid(662fbb0605e6b3542bf918c2e0db019a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fc00ae7b8dca03f7a9181424beb0e63e') in 0.012240 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Pulse/pulse3.png
+  artifactKey: Guid(d7e06cd92a81c4da982d67a807b692b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Pulse/pulse3.png using Guid(d7e06cd92a81c4da982d67a807b692b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b9c99596d4ec864a2a0562072e99a347') in 0.016521 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/hits-3-1 (1).controller
+  artifactKey: Guid(931958b00d8884b979b54bcca9c5e5d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/hits-3-1 (1).controller using Guid(931958b00d8884b979b54bcca9c5e5d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'da9094ef791a97c3949ac11fe2f1a1b0') in 0.024786 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Space Ships/enemyShip1.png
+  artifactKey: Guid(9169b61f5162b824ca1bf528ee709bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Space Ships/enemyShip1.png using Guid(9169b61f5162b824ca1bf528ee709bc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2013237f92e14afe4ffe2dfdc2d4b06d') in 0.014853 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/hits-3-2.png
+  artifactKey: Guid(19fdcb82191b34d74986844e288c775a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/hits-3-2.png using Guid(19fdcb82191b34d74986844e288c775a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b87fac8255ebb2600fdb215e975c2a09') in 0.021014 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Space Ships/background.jpg
+  artifactKey: Guid(e3b27e07651ddda4da3481751dde9053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Space Ships/background.jpg using Guid(e3b27e07651ddda4da3481751dde9053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e7d4271f255ac70958055ede13b8865c') in 0.024208 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34b5ebe9d6f430c87f713e1c50d73319') in 0.018366 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/Hit-3 Animation.anim
+  artifactKey: Guid(96eb07e1f57eb4782806bb79b98d11cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Warped Shooting Fx/Pixel Art/Hits/Hit-3/Hit-3 Animation.anim using Guid(96eb07e1f57eb4782806bb79b98d11cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0777fe25c3505eb28fd66976c945e444') in 0.011801 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/stg_basic_pics/sample_animations/enemybullet/enemybulletanim004.prefab
+  artifactKey: Guid(92ed539b2ba4e594fa8fe4d1f59b7303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/stg_basic_pics/sample_animations/enemybullet/enemybulletanim004.prefab using Guid(92ed539b2ba4e594fa8fe4d1f59b7303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '85781f2ac4916edea5f6dedce12efcea') in 0.023838 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1137ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (969ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (656ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (514ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5197 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.7 MB). Loaded Objects now: 5797.
+Memory consumption went from 201.8 MB to 201.1 MB.
+Total: 3.535200 ms (FindLiveObjects: 0.340400 ms CreateObjectMapping: 0.248900 ms MarkObjects: 2.629000 ms  DeleteObjects: 0.315700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
